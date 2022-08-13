@@ -1,9 +1,6 @@
-import subprocess
 import glob
-import os
+import subprocess
 import time
-import tempfile
-import fcntl
 
 bin_path = glob.glob('/challenge/em*')[0]
 

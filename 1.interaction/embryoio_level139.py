@@ -1,10 +1,8 @@
-from pwn import *
-
 import glob
-import signal
-import time
-import re
 import os
+import time
+
+from pwn import *
 
 bin_path = glob.glob('/challenge/em*')[0]
 

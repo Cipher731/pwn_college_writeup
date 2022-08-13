@@ -1,6 +1,6 @@
-from pwn import *
-
 import io
+
+from pwn import *
 
 
 def try1():

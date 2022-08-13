@@ -1,7 +1,4 @@
 from pwn import *
-import glob
-import pwnlib
-import os
 
 DEBUG = len(sys.argv) > 1 and sys.argv[1] == 'debug'
 

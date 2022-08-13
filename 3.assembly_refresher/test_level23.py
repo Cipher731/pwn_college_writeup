@@ -1,19 +1,16 @@
 #!/usr/bin/python -I
 
-import sys
-import re
 import collections
-import string
 import random
+import re
+import sys
 import textwrap
-from collections import defaultdict
 
 import pwnlib
 import pwnlib.asm
+from capstone import *
 from unicorn import *
 from unicorn.x86_const import *
-from capstone import *
-
 
 pwnlib.context.context.update(arch="amd64")
 builtin_print = print

@@ -1,6 +1,7 @@
-from pwn import *
 import os
 import time
+
+from pwn import *
 
 bin_path = os.listdir('/challenge')[-1]
 

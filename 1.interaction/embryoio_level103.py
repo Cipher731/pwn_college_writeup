@@ -1,8 +1,9 @@
-from pwn import *
+import fcntl
 import glob
 import os
 import time
-import fcntl
+
+from pwn import *
 
 
 def method_with_shell_feature():

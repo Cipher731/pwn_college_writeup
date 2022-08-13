@@ -1,9 +1,9 @@
-from pwn import *
-
 import glob
+import re
 import signal
 import time
-import re
+
+from pwn import *
 
 bin_path = glob.glob('/challenge/em*')[0]
 p = process(f'echo {bin_path} > /tmp/script.sh; bash /tmp/script.sh', shell=True)

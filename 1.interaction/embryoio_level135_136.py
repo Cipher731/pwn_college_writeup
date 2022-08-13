@@ -1,9 +1,6 @@
-from pwn import *
-
-import glob
-import signal
 import time
-import re
+
+from pwn import *
 
 p = process(['/home/hacker/challenges/1.interaction/c_wrapper'])
 

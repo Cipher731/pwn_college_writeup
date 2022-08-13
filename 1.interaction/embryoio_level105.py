@@ -1,8 +1,9 @@
-from pwn import *
 import glob
 import os
-import time
 import tempfile
+import time
+
+from pwn import *
 
 
 def make_and_open_fifo():

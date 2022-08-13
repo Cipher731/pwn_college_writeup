@@ -1,5 +1,6 @@
-from pwn import *
 import os
+
+from pwn import *
 
 r, w = os.pipe()
 p1 = process('cat', stdin=r)

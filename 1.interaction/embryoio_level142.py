@@ -1,5 +1,5 @@
-import sys
 import os
+import sys
 
 sock_fd = sys.argv[1]
 pr = os.fdopen(int(sock_fd), 'r')

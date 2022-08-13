@@ -1,9 +1,11 @@
-from pwn import *
+import fcntl
 import glob
 import os
-import time
 import tempfile
-import fcntl
+import time
+
+from pwn import *
+
 
 def make_and_open_fifo():
     fifo_path = os.path.join(tempfile.mkdtemp(), 'myfifo')

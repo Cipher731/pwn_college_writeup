@@ -1,6 +1,7 @@
-from pwn import *
-import os
 import glob
+import os
+
+from pwn import *
 
 bin_path = glob.glob('/challenge/em*')[0]
 

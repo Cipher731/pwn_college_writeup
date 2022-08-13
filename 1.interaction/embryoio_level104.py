@@ -1,8 +1,9 @@
-from pwn import *
 import glob
 import os
-import time
 import tempfile
+import time
+
+from pwn import *
 
 fifo_path = os.path.join(tempfile.mkdtemp(), 'myfifo')
 bin_path = glob.glob('/challenge/em*')[0]

@@ -1,6 +1,4 @@
-from pwn import *
 import glob
-import os
 import time
 
 
